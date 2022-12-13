@@ -1,4 +1,9 @@
 # Spring-Cloud-Example
 
-## Architecture 
+## Components
+- Freud: Microservice 
+- Customer: Microservice
+- Eureka Server 
 
+## Architecture 
+![Architecture](./Utils/Architecture.jpeg)
