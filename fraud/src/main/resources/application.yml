@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: fraud
+  data:
+    mongodb:
+      host: localhost
+      port: 27016
+      database: FRAUDDB
+      auto-index-creation: true
+      authentication-database: admin
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
